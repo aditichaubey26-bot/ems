@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "880e",
+      "name": "Aditi chaubey",
+      "email": "aditi@test.com",
+      "password": "123"
+    },
+    {
+      "id": "19b4",
+      "name": "Aditi chaubey",
+      "email": "aditi@test.com",
+      "password": "123"
+    },
+    {
+      "id": "bcd4",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "345"
+    }
+  ]
+}
