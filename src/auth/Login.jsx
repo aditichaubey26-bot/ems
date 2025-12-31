@@ -9,7 +9,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false)
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
-  const navigate= useNavigate()
+  const navigate = useNavigate()
   async function handleLogin(e)
   {
     e.preventDefault()
@@ -32,12 +32,10 @@ export default function Login() {
         }
         if(flag)
         {
-          // console.log("login success")
           toast.success("Login Success!")
           navigate("/dashboard")
         }
         else{
-          console.log("invalid user!")
           toast.error("Invalid credentials!")
         }
 
@@ -67,10 +65,10 @@ export default function Login() {
           </div>
           {
             loading
-              ? <Button type="submit" className={'w-full mt-3'}>
+              ? <Button className={'w-full mt-3'}>
                 <Loader2Icon className="animate-spin" /> Please wait
               </Button>
-              : <Button type="submit" className={'w-full mt-3'}>Login</Button>
+              : <Button className={'w-full mt-3'}>Login</Button>
           }
 
           <p className='text-sm mt-3 text-center'>Not registered?

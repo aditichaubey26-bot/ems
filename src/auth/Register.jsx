@@ -1,54 +1,10 @@
-// import React from 'react'
-// import { Button } from '@/components/ui/button'
-// import { Input } from '@/components/ui/input'
-// import { Loader2Icon } from 'lucide-react'
-
-// export default function Register() {
-//   return (
-//     <div>
-//       <div>
-//       <div className='h-screen w-screen flex justify-center items-center '>
-//         <form className='shadow p-5'>
-//           <h1 className='text-2xl font-semibold mb-4'>Register Form</h1>
-//           <div>
-//             <span>Name</span>
-//             <Input type="text" name="name" className={'focus-visible:ring-transparent'}/>
-//           </div>
-//           <div>
-//             <span>Email</span>
-//             <Input type="Email" name="email" className={'focus-visible:ring-transparent'} />
-//           </div>
-
-//           <div>
-//             <span>Password</span>
-//             <Input type="text" name="name" className={'focus-visible:ring-transparent'} />
-//           </div>
-
-//           <Button className={'w-full mt-3'}>Register</Button>
-//           <Button className={'w-full mt-3'}>
-//             <Loader2Icon/> Please wait
-//           </Button>
-
-//         </form>
-//       </div>
-//     </div>
-//     </div>
-//   )
-// }
-
-
-
-
-
-
-
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Loader2Icon } from 'lucide-react'
 import React, { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { toast } from 'sonner'
-
+// import { User } from 'lucide-react';
 
 export default function Register() {
   const [loading, setLoading] = useState(false)
@@ -65,6 +21,7 @@ export default function Register() {
     setLoading(true)
     e.preventDefault()
     try {
+      
           const res = await fetch(`http://localhost:3000/users`,{
             method:"POST",
             headers:{
@@ -91,7 +48,7 @@ export default function Register() {
       <div className='h-screen w-screen flex justify-center items-center '>
         <form className='shadow p-5' onSubmit={handleSubmit}>
           <h1 className='text-2xl font-semibold mb-4'>Register Form
-        
+          {/* <User /> */}
 
           </h1>
           <div>

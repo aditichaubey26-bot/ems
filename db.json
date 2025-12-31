@@ -1,22 +1,58 @@
 {
   "users": [
     {
-      "id": "880e",
-      "name": "Aditi chaubey",
-      "email": "aditi@test.com",
+      "id": "47aa",
+      "name": "rahul",
+      "email": "rahul@test.com",
       "password": "123"
     },
     {
-      "id": "19b4",
-      "name": "Aditi chaubey",
-      "email": "aditi@test.com",
-      "password": "123"
+      "id": "b181",
+      "name": "aniket",
+      "email": "aniket@rediffmail.com",
+      "password": "12345"
     },
     {
-      "id": "bcd4",
+      "id": "d3f3",
       "name": "abc",
-      "email": "abc@gmail.com",
-      "password": "345"
+      "email": "abc@test.com",
+      "password": "123"
+    },
+    {
+      "id": "ccf1",
+      "name": "dummy",
+      "email": "dummy@test.com",
+      "password": "2345"
+    }
+  ],
+  "employees": [
+    {
+      "id": "ce54",
+      "name": "aniket",
+      "email": "aniket@rediffmail.com",
+      "city": "jaipur",
+      "designation": "database engineer"
+    },
+    {
+      "id": "d98e",
+      "name": "aman",
+      "email": "aman@test.com",
+      "city": "shimla",
+      "designation": "database engineer"
+    },
+    {
+      "id": "a3a9",
+      "name": "pankaj",
+      "email": "pankaj@abc.com",
+      "city": "dehradun",
+      "designation": "ai engineer"
+    },
+    {
+      "id": "53d9",
+      "name": "admin",
+      "email": "aman@test.com",
+      "city": "amritsar",
+      "designation": "developer"
     }
   ]
 }
